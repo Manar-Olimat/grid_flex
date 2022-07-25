@@ -1,0 +1,89 @@
+body{
+    display: grid;
+    /* grid-template-columns:repeat(4,400px); */
+    grid-template-rows: max-content;
+    grid-gap: 50px;
+        grid-template-areas:
+    " header header header header header"
+    "area area area"
+
+     ;
+}
+header div{
+    box-sizing: border-box;
+    background-color: grey;
+  display: grid;
+  grid-area: header;
+    grid-template-columns: repeat(5,200px);
+    padding-left: 40px;
+    padding-right: 50px;
+    width: 1200px;
+
+}
+main{
+    /* padding-left: 40px; */
+    grid-gap: 50px;
+
+}
+section{
+    /* padding-left: 40px; */
+    /* grid-template-areas: area; */
+    /* grid-column-start: 1; */
+    /* grid-column-end: 5; */
+    padding:20px;
+
+
+}
+section img{
+    padding-left: 15px ;
+    padding-right: 15px ;
+
+}
+main div img{
+    padding:20px 40px ;
+
+/* display: grid; */
+/* grid-column-start: 3; */
+/* grid-column-end: 5; */
+}
+
+span{
+    display: grid;
+    grid-template-columns: 480px 480px;
+    padding:20px 40px ;
+
+}
+
+span section{
+    display: grid;
+grid-template-rows: 370px 30px;
+}
+p{
+    /* display: grid; */
+    /* grid-auto-rows: min-content; */
+    /* width: 480px; */
+    /* height: 350px; */
+    overflow: scroll;
+    /* overflow-y: hidden;
+    overflow-x: hidden; */
+}
+p::-webkit-scrollbar{
+    display: none;
+}
+button{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-shrink: 100px;
+    width: 100px;
+    flex-wrap: wrap;
+}
+
+footer div{
+    box-sizing: border-box;
+    background-color: grey;
+    width: 1200px;
+    height: 70px;
+    padding-right: 50px;
+
+}

@@ -1,0 +1,94 @@
+*{
+    /* display: flex; */
+    /* text-align: center; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+header div {
+    /* position: relative; */
+    /* width: 1000px; */
+    /* height: fit-content; */
+    box-sizing: border-box;
+    background-color: grey;
+    display: flex;
+    width: 1200px;
+    flex-basis: auto;
+    /* flex-wrap: wrap; */
+    padding-right: 50px;
+    /* align-items: center; */
+   
+}
+header img{
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: 150px;
+    /* flex-wrap: wrap;  */
+padding: 20px;
+padding-left: 40px;
+}
+header h3{
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-basis: 150px;
+    top: 30px;
+}
+
+main div img{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 960 450;
+    padding:20px 40px ;
+}
+main section {
+    display: flex;
+    padding-left: 20px;
+    flex-wrap: wrap;
+    /* align-content: space-around; */
+}
+main section img{
+    display: flex;
+    flex-basis: auto;
+    align-content: space-around;
+
+    padding:20px 15px ;
+
+}
+main span{
+    display: flex;
+    padding:20px 40px ;
+
+}
+p{
+    width: 480px;
+    height: 350px;
+    overflow: scroll;
+    /* overflow-y: hidden;
+    overflow-x: hidden; */
+}
+p::-webkit-scrollbar{
+    display: none;
+}
+button{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-shrink: 100px;
+    width: 100px;
+    flex-wrap: wrap;
+}
+span section{
+    display: flex;
+    flex-direction: column;
+}
+footer div{
+    box-sizing: border-box;
+    background-color: grey;
+    display: flex;
+    width: 1200px;
+    height: 110px;
+    /* flex-basis: 1200px; */
+    padding-right: 50px;
+
+}
